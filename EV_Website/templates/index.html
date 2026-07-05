@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electric Vehicle Market Analysis</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<header>
+    <h1>⚡ Electric Vehicle Market Analysis Dashboard</h1>
+
+    <nav>
+        <a href="/">Home</a>
+        <a href="/dashboard">Dashboard</a>
+        <a href="/story">Story</a>
+        <a href="/about">About</a>
+    </nav>
+</header>
+
+<section class="hero">
+
+    <h2>Visualization Tool for Electric Vehicle Charge and Range Analysis</h2>
+
+    <p>
+        This project analyzes electric vehicle market trends using Tableau and Flask.
+        It provides insights into vehicle efficiency, charging speed,
+        driving range, price distribution, body styles, and performance.
+    </p>
+
+    <div class="hero-buttons">
+        <a class="btn" href="/dashboard">View Dashboard</a>
+        <a class="btn secondary" href="/story">View Story</a>
+    </div>
+
+</section>
+
+<section class="cards">
+
+    <div class="card">
+        <h3>🌍 Global Brands</h3>
+        <p>32 EV Brands</p>
+    </div>
+
+    <div class="card">
+        <h3>⚡ Top Efficiency</h3>
+        <p>Byton, Jaguar, Audi</p>
+    </div>
+
+    <div class="card">
+        <h3>🔋 Longest Range</h3>
+        <p>Lucid & Tesla</p>
+    </div>
+
+    <div class="card">
+        <h3>🚀 Fast Charging</h3>
+        <p>Porsche</p>
+    </div>
+
+</section>
+
+<section class="dashboard">
+
+    <h2>Dashboard Preview</h2>
+
+    <p>
+        Preview of the Tableau dashboard developed for this Skill Wallet project.
+    </p>
+
+    <a href="/dashboard">
+        <img src="{{ url_for('static', filename='images/dashboard.png') }}"
+             alt="Dashboard Preview"
+             class="preview-image">
+    </a>
+
+</section>
+
+<section class="dashboard">
+
+    <h2>Story Preview</h2>
+
+    <p>
+        Click below to view the Tableau Story explaining the project insights.
+    </p>
+
+    <a href="/story">
+        <img src="{{ url_for('static', filename='images/Story.png') }}"
+             alt="Story Preview"
+             class="preview-image">
+    </a>
+
+</section>
+
+<footer>
+
+    <p><strong>Skill Wallet Project</strong></p>
+
+    <p>Visualization Tool for Electric Vehicle Charge and Range Analysis</p>
+
+    <p>Developed using Tableau • Flask • HTML • CSS</p>
+
+</footer>
+
+</body>
+
+</html>

@@ -1,0 +1,1293 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20262.26.0603.1643                               -->
+<workbook original-version='18.1' source-build='2026.2.0 (20262.26.0603.1643)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AccessibleZoneTabOrder />
+    <AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <BasicButtonObject />
+    <CollapsiblePane />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+    <ZoneVisibilityControl />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='evindia (electric_cars)' inline='true' name='federated.0djzfcv13m0mg71d44wg80vg28np' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='localhost' name='mysql.0eekvms073cjx61fp8rvf0hzweel'>
+            <connection class='mysql' dbname='electric_cars' odbc-native-protocol='' one-time-sql='' port='3306' server='localhost' source-charset='' username='root' />
+          </named-connection>
+        </named-connections>
+        <relation connection='mysql.0eekvms073cjx61fp8rvf0hzweel' name='evindia' table='[evindia]' type='table' />
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>Car</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Car]</local-name>
+            <parent-name>[evindia]</parent-name>
+            <remote-alias>Car</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>262140</width>
+            <contains-null>true</contains-null>
+            <cast-to-local-type>true</cast-to-local-type>
+            <collation charset='296' flag='3' name='LROOT_S1' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WLONGVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+            </attributes>
+            <object-id>[evindia_AB661A040027482E8828CD81BBB30824]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Style</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Style]</local-name>
+            <parent-name>[evindia]</parent-name>
+            <remote-alias>Style</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>262140</width>
+            <contains-null>true</contains-null>
+            <cast-to-local-type>true</cast-to-local-type>
+            <collation charset='296' flag='3' name='LROOT_S1' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WLONGVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+            </attributes>
+            <object-id>[evindia_AB661A040027482E8828CD81BBB30824]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Range</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Range]</local-name>
+            <parent-name>[evindia]</parent-name>
+            <remote-alias>Range</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>262140</width>
+            <contains-null>true</contains-null>
+            <cast-to-local-type>true</cast-to-local-type>
+            <collation charset='296' flag='3' name='LROOT_S1' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WLONGVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+            </attributes>
+            <object-id>[evindia_AB661A040027482E8828CD81BBB30824]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Transmission</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Transmission]</local-name>
+            <parent-name>[evindia]</parent-name>
+            <remote-alias>Transmission</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>262140</width>
+            <contains-null>true</contains-null>
+            <cast-to-local-type>true</cast-to-local-type>
+            <collation charset='296' flag='3' name='LROOT_S1' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WLONGVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+            </attributes>
+            <object-id>[evindia_AB661A040027482E8828CD81BBB30824]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>VehicleType</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[VehicleType]</local-name>
+            <parent-name>[evindia]</parent-name>
+            <remote-alias>VehicleType</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>262140</width>
+            <contains-null>true</contains-null>
+            <cast-to-local-type>true</cast-to-local-type>
+            <collation charset='296' flag='3' name='LROOT_S1' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WLONGVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+            </attributes>
+            <object-id>[evindia_AB661A040027482E8828CD81BBB30824]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PriceRange(Lakhs)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PriceRange(Lakhs)]</local-name>
+            <parent-name>[evindia]</parent-name>
+            <remote-alias>PriceRange(Lakhs)</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+            <object-id>[evindia_AB661A040027482E8828CD81BBB30824]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Capacity</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Capacity]</local-name>
+            <parent-name>[evindia]</parent-name>
+            <remote-alias>Capacity</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>262140</width>
+            <contains-null>true</contains-null>
+            <cast-to-local-type>true</cast-to-local-type>
+            <collation charset='296' flag='3' name='LROOT_S1' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WLONGVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+            </attributes>
+            <object-id>[evindia_AB661A040027482E8828CD81BBB30824]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>BootSpace</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[BootSpace]</local-name>
+            <parent-name>[evindia]</parent-name>
+            <remote-alias>BootSpace</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>262140</width>
+            <contains-null>true</contains-null>
+            <cast-to-local-type>true</cast-to-local-type>
+            <collation charset='296' flag='3' name='LROOT_S1' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WLONGVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+            </attributes>
+            <object-id>[evindia_AB661A040027482E8828CD81BBB30824]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>BaseModel</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[BaseModel]</local-name>
+            <parent-name>[evindia]</parent-name>
+            <remote-alias>BaseModel</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>262140</width>
+            <contains-null>true</contains-null>
+            <cast-to-local-type>true</cast-to-local-type>
+            <collation charset='296' flag='3' name='LROOT_S1' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WLONGVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+            </attributes>
+            <object-id>[evindia_AB661A040027482E8828CD81BBB30824]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TopModel</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[TopModel]</local-name>
+            <parent-name>[evindia]</parent-name>
+            <remote-alias>TopModel</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>262140</width>
+            <contains-null>true</contains-null>
+            <cast-to-local-type>true</cast-to-local-type>
+            <collation charset='296' flag='3' name='LROOT_S1' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WLONGVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+            </attributes>
+            <object-id>[evindia_AB661A040027482E8828CD81BBB30824]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Base Model' datatype='string' name='[BaseModel]' role='dimension' type='nominal' />
+      <column caption='Boot Space' datatype='string' name='[BootSpace]' role='dimension' type='nominal' />
+      <column caption='India_Brands' datatype='real' name='[Calculation_1111901068062726]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF [Brand]=&quot;Audi&quot;&#13;&#10;OR [Brand]=&quot;BMW&quot;&#13;&#10;OR [Brand]=&quot;Hyundai&quot;&#13;&#10;OR [Brand]=&quot;Jaguar&quot;&#13;&#10;OR [Brand]=&quot;Kia&quot;&#13;&#10;OR [Brand]=&quot;MG&quot;&#13;&#10;OR [Brand]=&quot;Mercedes&quot;&#13;&#10;OR [Brand]=&quot;Porsche&quot;&#13;&#10;OR [Brand]=&quot;Tata&quot;&#13;&#10;THEN [Brand]&#13;&#10;END' />
+      </column>
+      <column caption='Top Model' datatype='string' name='[TopModel]' role='dimension' type='nominal' />
+      <column caption='Vehicle Type' datatype='string' name='[VehicleType]' role='dimension' type='nominal' />
+      <column caption='evindia' datatype='table' name='[__tableau_internal_object_id__].[evindia_AB661A040027482E8828CD81BBB30824]' role='measure' type='quantitative' />
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='evindia' id='evindia_AB661A040027482E8828CD81BBB30824'>
+            <properties context=''>
+              <relation connection='mysql.0eekvms073cjx61fp8rvf0hzweel' name='evindia' table='[evindia]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+    <datasource caption='electriccardata_clean (electric_cars)' inline='true' name='federated.1f6swr20l6cpvc119c06v03w8o5x' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='localhost' name='mysql.033076u14nebmw10rowm20gav6ip'>
+            <connection class='mysql' dbname='electric_cars' odbc-native-protocol='' one-time-sql='' port='3306' server='localhost' source-charset='' username='root' />
+          </named-connection>
+        </named-connections>
+        <relation connection='mysql.033076u14nebmw10rowm20gav6ip' name='electriccardata_clean' table='[electriccardata_clean]' type='table' />
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>Brand</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Brand]</local-name>
+            <parent-name>[electriccardata_clean]</parent-name>
+            <remote-alias>Brand</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>262140</width>
+            <contains-null>true</contains-null>
+            <cast-to-local-type>true</cast-to-local-type>
+            <collation charset='296' flag='3' name='LROOT_S1' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WLONGVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+            </attributes>
+            <object-id>[electriccardata_clean_BE0921B2BA984CAAA2444B7DC9CF2C99]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Model</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Model]</local-name>
+            <parent-name>[electriccardata_clean]</parent-name>
+            <remote-alias>Model</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>262140</width>
+            <contains-null>true</contains-null>
+            <cast-to-local-type>true</cast-to-local-type>
+            <collation charset='296' flag='3' name='LROOT_S1' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WLONGVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+            </attributes>
+            <object-id>[electriccardata_clean_BE0921B2BA984CAAA2444B7DC9CF2C99]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AccelSec</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[AccelSec]</local-name>
+            <parent-name>[electriccardata_clean]</parent-name>
+            <remote-alias>AccelSec</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+            <object-id>[electriccardata_clean_BE0921B2BA984CAAA2444B7DC9CF2C99]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TopSpeed_KmH</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[TopSpeed_KmH]</local-name>
+            <parent-name>[electriccardata_clean]</parent-name>
+            <remote-alias>TopSpeed_KmH</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+            <object-id>[electriccardata_clean_BE0921B2BA984CAAA2444B7DC9CF2C99]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Range_Km</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[Range_Km]</local-name>
+            <parent-name>[electriccardata_clean]</parent-name>
+            <remote-alias>Range_Km</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+            <object-id>[electriccardata_clean_BE0921B2BA984CAAA2444B7DC9CF2C99]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Efficiency_WhKm</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[Efficiency_WhKm]</local-name>
+            <parent-name>[electriccardata_clean]</parent-name>
+            <remote-alias>Efficiency_WhKm</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+            <object-id>[electriccardata_clean_BE0921B2BA984CAAA2444B7DC9CF2C99]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FastCharge_KmH</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[FastCharge_KmH]</local-name>
+            <parent-name>[electriccardata_clean]</parent-name>
+            <remote-alias>FastCharge_KmH</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+            <object-id>[electriccardata_clean_BE0921B2BA984CAAA2444B7DC9CF2C99]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RapidCharge</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[RapidCharge]</local-name>
+            <parent-name>[electriccardata_clean]</parent-name>
+            <remote-alias>RapidCharge</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>262140</width>
+            <contains-null>true</contains-null>
+            <cast-to-local-type>true</cast-to-local-type>
+            <collation charset='296' flag='3' name='LROOT_S1' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WLONGVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+            </attributes>
+            <object-id>[electriccardata_clean_BE0921B2BA984CAAA2444B7DC9CF2C99]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PowerTrain</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[PowerTrain]</local-name>
+            <parent-name>[electriccardata_clean]</parent-name>
+            <remote-alias>PowerTrain</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>262140</width>
+            <contains-null>true</contains-null>
+            <cast-to-local-type>true</cast-to-local-type>
+            <collation charset='296' flag='3' name='LROOT_S1' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WLONGVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+            </attributes>
+            <object-id>[electriccardata_clean_BE0921B2BA984CAAA2444B7DC9CF2C99]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PlugType</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[PlugType]</local-name>
+            <parent-name>[electriccardata_clean]</parent-name>
+            <remote-alias>PlugType</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>262140</width>
+            <contains-null>true</contains-null>
+            <cast-to-local-type>true</cast-to-local-type>
+            <collation charset='296' flag='3' name='LROOT_S1' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WLONGVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+            </attributes>
+            <object-id>[electriccardata_clean_BE0921B2BA984CAAA2444B7DC9CF2C99]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>BodyStyle</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[BodyStyle]</local-name>
+            <parent-name>[electriccardata_clean]</parent-name>
+            <remote-alias>BodyStyle</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>262140</width>
+            <contains-null>true</contains-null>
+            <cast-to-local-type>true</cast-to-local-type>
+            <collation charset='296' flag='3' name='LROOT_S1' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WLONGVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+            </attributes>
+            <object-id>[electriccardata_clean_BE0921B2BA984CAAA2444B7DC9CF2C99]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Segment</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Segment]</local-name>
+            <parent-name>[electriccardata_clean]</parent-name>
+            <remote-alias>Segment</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>262140</width>
+            <contains-null>true</contains-null>
+            <cast-to-local-type>true</cast-to-local-type>
+            <collation charset='296' flag='3' name='LROOT_S1' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WLONGVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+            </attributes>
+            <object-id>[electriccardata_clean_BE0921B2BA984CAAA2444B7DC9CF2C99]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Seats</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[Seats]</local-name>
+            <parent-name>[electriccardata_clean]</parent-name>
+            <remote-alias>Seats</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+            <object-id>[electriccardata_clean_BE0921B2BA984CAAA2444B7DC9CF2C99]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PriceEuro</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[PriceEuro]</local-name>
+            <parent-name>[electriccardata_clean]</parent-name>
+            <remote-alias>PriceEuro</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+            <object-id>[electriccardata_clean_BE0921B2BA984CAAA2444B7DC9CF2C99]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Accel Sec' datatype='real' name='[AccelSec]' role='measure' type='quantitative' />
+      <column caption='Body Style' datatype='string' name='[BodyStyle]' role='dimension' type='nominal' />
+      <column caption='Count_Brands' datatype='integer' name='[Calculation_1111901063794692]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='COUNTD([Brand])' />
+      </column>
+      <column caption='India_Brands' datatype='string' name='[Calculation_1111901068320775]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='IF [Brand] = &quot;Audi&quot; THEN &quot;Audi&quot;&#13;&#10;ELSEIF [Brand] = &quot;BMW&quot; THEN &quot;BMW&quot;&#13;&#10;ELSEIF [Brand] = &quot;Hyundai&quot; THEN &quot;Hyundai&quot;&#13;&#10;ELSEIF [Brand] = &quot;Jaguar&quot; THEN &quot;Jaguar&quot;&#13;&#10;ELSEIF [Brand] = &quot;Kia&quot; THEN &quot;Kia&quot;&#13;&#10;ELSEIF [Brand] = &quot;MG&quot; THEN &quot;MG&quot;&#13;&#10;ELSEIF [Brand] = &quot;Mercedes&quot; THEN &quot;Mercedes&quot;&#13;&#10;ELSEIF [Brand] = &quot;Porsche&quot; THEN &quot;Porsche&quot;&#13;&#10;END' />
+      </column>
+      <column caption='Count_India_Brands' datatype='integer' name='[Calculation_1111901068554248]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='COUNTD([Calculation_1111901068320775])' />
+      </column>
+      <column caption='Efficiency WhKm' datatype='integer' name='[Efficiency_WhKm]' role='measure' type='quantitative' />
+      <column caption='FastCharge KmH' datatype='integer' name='[FastCharge_KmH]' role='measure' type='quantitative' />
+      <column caption='Plug Type' datatype='string' name='[PlugType]' role='dimension' type='nominal' />
+      <column caption='Power Train' datatype='string' name='[PowerTrain]' role='dimension' type='nominal' />
+      <column aggregation='None' datatype='integer' name='[Price Euro (bin)]' role='dimension' type='quantitative'>
+        <calculation class='bin' decimals='4' formula='[PriceEuro]' peg='0' size='12848' />
+      </column>
+      <column caption='Price Euro' datatype='integer' name='[PriceEuro]' role='measure' type='quantitative' />
+      <column caption='Range Km' datatype='integer' name='[Range_Km]' role='measure' type='quantitative' />
+      <column caption='Rapid Charge' datatype='string' name='[RapidCharge]' role='dimension' type='nominal' />
+      <column caption='TopSpeed KmH' datatype='integer' name='[TopSpeed_KmH]' role='measure' type='quantitative' />
+      <column caption='electriccardata_clean' datatype='table' name='[__tableau_internal_object_id__].[electriccardata_clean_BE0921B2BA984CAAA2444B7DC9CF2C99]' role='measure' type='quantitative' />
+      <column-instance column='[BodyStyle]' derivation='None' name='[none:BodyStyle:nk]' pivot='key' type='nominal' />
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:BodyStyle:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Cabrio&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Pickup&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;MPV&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;SUV&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;SPV&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Liftback&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;Sedan&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Hatchback&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;Station&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='electriccardata_clean' id='electriccardata_clean_BE0921B2BA984CAAA2444B7DC9CF2C99'>
+            <properties context=''>
+              <relation connection='mysql.033076u14nebmw10rowm20gav6ip' name='electriccardata_clean' table='[electriccardata_clean]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Brands according to BodyStyle'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='electriccardata_clean (electric_cars)' name='federated.1f6swr20l6cpvc119c06v03w8o5x' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1f6swr20l6cpvc119c06v03w8o5x'>
+            <column caption='Body Style' datatype='string' name='[BodyStyle]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Brand]' role='dimension' type='nominal' />
+            <column caption='Count_Brands' datatype='integer' name='[Calculation_1111901063794692]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNTD([Brand])' />
+            </column>
+            <column-instance column='[BodyStyle]' derivation='None' name='[none:BodyStyle:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Brand]' derivation='None' name='[none:Brand:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1111901063794692]' derivation='User' name='[usr:Calculation_1111901063794692:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <size column='[federated.1f6swr20l6cpvc119c06v03w8o5x].[usr:Calculation_1111901063794692:qk]' />
+              <text column='[federated.1f6swr20l6cpvc119c06v03w8o5x].[none:BodyStyle:nk]' />
+              <text column='[federated.1f6swr20l6cpvc119c06v03w8o5x].[none:Brand:nk]' />
+              <color column='[federated.1f6swr20l6cpvc119c06v03w8o5x].[none:BodyStyle:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{310F013E-1071-4F93-AE43-7FF62ED3B085}' />
+    </worksheet>
+    <worksheet name='EV Price Distribution'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='electriccardata_clean (electric_cars)' name='federated.1f6swr20l6cpvc119c06v03w8o5x' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1f6swr20l6cpvc119c06v03w8o5x'>
+            <column aggregation='None' datatype='integer' name='[Price Euro (bin)]' role='dimension' type='quantitative'>
+              <calculation class='bin' decimals='4' formula='[PriceEuro]' peg='0' size='12848' />
+            </column>
+            <column caption='Price Euro' datatype='integer' name='[PriceEuro]' role='measure' type='quantitative' />
+            <column-instance column='[PriceEuro]' derivation='Count' name='[cnt:PriceEuro:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Price Euro (bin)]' derivation='None' name='[none:Price Euro (bin):qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing custom-mark-size-in-axis-units='1.0' mark-alignment='mark-alignment-left' mark-sizing-setting='marks-scaling-on' use-custom-mark-size='false' />
+          </pane>
+        </panes>
+        <rows>[federated.1f6swr20l6cpvc119c06v03w8o5x].[cnt:PriceEuro:qk]</rows>
+        <cols>[federated.1f6swr20l6cpvc119c06v03w8o5x].[none:Price Euro (bin):qk]</cols>
+        <show-full-range>
+          <column>[federated.1f6swr20l6cpvc119c06v03w8o5x].[Price Euro (bin)]</column>
+        </show-full-range>
+      </table>
+      <simple-id uuid='{77647A0A-D800-42D1-9C5D-FFEEC06E2F1A}' />
+    </worksheet>
+    <worksheet name='Global Brands KPI'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='electriccardata_clean (electric_cars)' name='federated.1f6swr20l6cpvc119c06v03w8o5x' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1f6swr20l6cpvc119c06v03w8o5x'>
+            <column datatype='string' name='[Brand]' role='dimension' type='nominal' />
+            <column caption='Count_Brands' datatype='integer' name='[Calculation_1111901063794692]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNTD([Brand])' />
+            </column>
+            <column-instance column='[Calculation_1111901063794692]' derivation='User' name='[usr:Calculation_1111901063794692:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='font-size' field='[federated.1f6swr20l6cpvc119c06v03w8o5x].[usr:Calculation_1111901063794692:qk]' value='9' />
+            <format attr='font-size' data-class='subtotal' scope='cols' value='9' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='font-size' field='[federated.1f6swr20l6cpvc119c06v03w8o5x].[usr:Calculation_1111901063794692:qk]' value='48' />
+            <format attr='font-size' scope='cols' value='9' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Text' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <text column='[federated.1f6swr20l6cpvc119c06v03w8o5x].[usr:Calculation_1111901063794692:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run>&lt;</run>
+                <run>[federated.1f6swr20l6cpvc119c06v03w8o5x].[usr:Calculation_1111901063794692:qk]</run>
+                <run>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='auto' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='size' value='2.9060773849487305' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{A5EAB271-CE43-4809-9DAC-C49D5A5DC4FE}' />
+    </worksheet>
+    <worksheet name='Top 10 Fast Charging Speed'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='electriccardata_clean (electric_cars)' name='federated.1f6swr20l6cpvc119c06v03w8o5x' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1f6swr20l6cpvc119c06v03w8o5x'>
+            <column datatype='string' name='[Brand]' role='dimension' type='nominal' />
+            <column caption='FastCharge KmH' datatype='integer' name='[FastCharge_KmH]' role='measure' type='quantitative' />
+            <column-instance column='[FastCharge_KmH]' derivation='Avg' name='[avg:FastCharge_KmH:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Brand]' derivation='None' name='[none:Brand:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1f6swr20l6cpvc119c06v03w8o5x].[none:Brand:nk]'>
+            <groupfilter count='10' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='AVG([FastCharge_KmH])' function='order' user:ui-marker='order'>
+                <groupfilter function='level-members' level='[none:Brand:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.1f6swr20l6cpvc119c06v03w8o5x].[none:Brand:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;Porsche &quot;</bucket>
+              <bucket>&quot;Tesla &quot;</bucket>
+              <bucket>&quot;Polestar &quot;</bucket>
+              <bucket>&quot;Lucid &quot;</bucket>
+              <bucket>&quot;CUPRA &quot;</bucket>
+              <bucket>&quot;Audi &quot;</bucket>
+              <bucket>&quot;Lightyear &quot;</bucket>
+              <bucket>&quot;Volvo &quot;</bucket>
+              <bucket>&quot;Byton &quot;</bucket>
+              <bucket>&quot;BMW &quot;</bucket>
+              <bucket>&quot;Skoda &quot;</bucket>
+              <bucket>&quot;Volkswagen &quot;</bucket>
+              <bucket>&quot;Peugeot &quot;</bucket>
+              <bucket>&quot;Nissan &quot;</bucket>
+              <bucket>&quot;Ford &quot;</bucket>
+              <bucket>&quot;Mercedes &quot;</bucket>
+              <bucket>&quot;DS &quot;</bucket>
+              <bucket>&quot;Citroen &quot;</bucket>
+              <bucket>&quot;Aiways &quot;</bucket>
+              <bucket>&quot;Opel &quot;</bucket>
+              <bucket>&quot;Jaguar &quot;</bucket>
+              <bucket>&quot;Fiat &quot;</bucket>
+              <bucket>&quot;Kia &quot;</bucket>
+              <bucket>&quot;Sono &quot;</bucket>
+              <bucket>&quot;Hyundai &quot;</bucket>
+              <bucket>&quot;Mini &quot;</bucket>
+              <bucket>&quot;MG &quot;</bucket>
+              <bucket>&quot;Mazda &quot;</bucket>
+              <bucket>&quot;Renault &quot;</bucket>
+              <bucket>&quot;Lexus &quot;</bucket>
+              <bucket>&quot;Honda &quot;</bucket>
+              <bucket>&quot;SEAT &quot;</bucket>
+              <bucket>%all%</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.1f6swr20l6cpvc119c06v03w8o5x].[none:Brand:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.1f6swr20l6cpvc119c06v03w8o5x].[none:Brand:nk]</rows>
+        <cols>[federated.1f6swr20l6cpvc119c06v03w8o5x].[avg:FastCharge_KmH:qk]</cols>
+      </table>
+      <simple-id uuid='{0116F032-0469-453D-8043-D11612D0F265}' />
+    </worksheet>
+    <worksheet name='Top 10 Longest Range EVs'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='electriccardata_clean (electric_cars)' name='federated.1f6swr20l6cpvc119c06v03w8o5x' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1f6swr20l6cpvc119c06v03w8o5x'>
+            <column datatype='string' name='[Brand]' role='dimension' type='nominal' />
+            <column caption='Range Km' datatype='integer' name='[Range_Km]' role='measure' type='quantitative' />
+            <column-instance column='[Range_Km]' derivation='Avg' name='[avg:Range_Km:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Brand]' derivation='None' name='[none:Brand:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1f6swr20l6cpvc119c06v03w8o5x].[none:Brand:nk]'>
+            <groupfilter count='10' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='AVG([Range_Km])' function='order' user:ui-marker='order'>
+                <groupfilter function='level-members' level='[none:Brand:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1f6swr20l6cpvc119c06v03w8o5x].[none:Brand:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1f6swr20l6cpvc119c06v03w8o5x].[avg:Range_Km:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.1f6swr20l6cpvc119c06v03w8o5x].[none:Brand:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.1f6swr20l6cpvc119c06v03w8o5x].[none:Brand:nk]</rows>
+        <cols>[federated.1f6swr20l6cpvc119c06v03w8o5x].[avg:Range_Km:qk]</cols>
+      </table>
+      <simple-id uuid='{F7FCC7D1-A719-44E3-9D27-20E923743CA1}' />
+    </worksheet>
+    <worksheet name='Top 10 Most Efficient Brands'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='electriccardata_clean (electric_cars)' name='federated.1f6swr20l6cpvc119c06v03w8o5x' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1f6swr20l6cpvc119c06v03w8o5x'>
+            <column datatype='string' name='[Brand]' role='dimension' type='nominal' />
+            <column caption='Efficiency WhKm' datatype='integer' name='[Efficiency_WhKm]' role='measure' type='quantitative' />
+            <column-instance column='[Efficiency_WhKm]' derivation='Avg' name='[avg:Efficiency_WhKm:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Brand]' derivation='None' name='[none:Brand:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1f6swr20l6cpvc119c06v03w8o5x].[none:Brand:nk]'>
+            <groupfilter count='10' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='AVG([Efficiency_WhKm])' function='order' user:ui-marker='order'>
+                <groupfilter function='level-members' level='[none:Brand:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1f6swr20l6cpvc119c06v03w8o5x].[none:Brand:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1f6swr20l6cpvc119c06v03w8o5x].[avg:Efficiency_WhKm:qk]' shelf='columns' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.1f6swr20l6cpvc119c06v03w8o5x].[none:Brand:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1f6swr20l6cpvc119c06v03w8o5x].[avg:Efficiency_WhKm:qk]' field-type='quantitative' max='264.2106159927244' min='-73.786692684143702' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.1f6swr20l6cpvc119c06v03w8o5x].[avg:Efficiency_WhKm:qk]</rows>
+        <cols>[federated.1f6swr20l6cpvc119c06v03w8o5x].[none:Brand:nk]</cols>
+      </table>
+      <simple-id uuid='{47F5247B-0FE8-4582-BAC1-476A441120C3}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard enable-sort-zone-taborder='true' name='Electric Vehicle Market Analysis Dashboard'>
+      <style />
+      <size maxheight='768' maxwidth='1366' minheight='768' minwidth='1366' preset-index='0' sizing-mode='fixed' />
+      <zones>
+        <zone h='100000' id='6' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='97916' id='22' param='horz' type-v2='layout-flow' w='98828' x='586' y='1042'>
+            <zone h='97916' id='18' param='vert' type-v2='layout-flow' w='98828' x='586' y='1042'>
+              <zone h='6511' id='19' type-v2='title' w='98828' x='586' y='1042'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='91405' id='16' type-v2='layout-basic' w='98828' x='586' y='7553'>
+                <zone h='30857' id='10' param='horz' type-v2='layout-flow' w='98828' x='586' y='7553'>
+                  <zone h='30857' id='8' type-v2='layout-basic' w='98828' x='586' y='7553'>
+                    <zone h='30857' id='5' name='Global Brands KPI' w='49412' x='586' y='7553'>
+                      <zone-style>
+                        <format attr='border-color' value='#000000' />
+                        <format attr='border-style' value='none' />
+                        <format attr='border-width' value='0' />
+                        <format attr='margin' value='4' />
+                      </zone-style>
+                    </zone>
+                    <zone h='30857' id='20' name='Brands according to BodyStyle' w='49416' x='49998' y='7553'>
+                      <zone-style>
+                        <format attr='border-color' value='#000000' />
+                        <format attr='border-style' value='none' />
+                        <format attr='border-width' value='0' />
+                        <format attr='margin' value='4' />
+                      </zone-style>
+                    </zone>
+                  </zone>
+                </zone>
+                <zone h='37479' id='12' name='Top 10 Most Efficient Brands' w='49412' x='586' y='38410'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='37479' id='13' name='Top 10 Longest Range EVs' w='49416' x='49998' y='38410'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='23069' id='14' name='EV Price Distribution' w='49412' x='586' y='75889'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='23069' id='15' name='Top 10 Fast Charging Speed' w='49416' x='49998' y='75889'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone h='3125' hidden-by-user='true' id='24' type-v2='dashboard-object' w='1757' x='84773' y='1042'>
+          <button action=''>
+            <toggle-action>tabdoc:toggle-button-click-action window-id=&quot;{CE1BCD5B-8FF4-4C03-BDFC-F71C11735874}&quot; zone-id=&quot;24&quot; zone-ids=[23]</toggle-action>
+            <button-visual-state />
+            <button-visual-state />
+          </button>
+        </zone>
+        <zone h='3125' id='29' type-v2='dashboard-object' w='1757' x='86530' y='1042'>
+          <button action='' active-visual-state-index='1'>
+            <toggle-action>tabdoc:toggle-button-click-action window-id=&quot;{CE1BCD5B-8FF4-4C03-BDFC-F71C11735874}&quot; zone-id=&quot;29&quot; zone-ids=[24]</toggle-action>
+            <button-visual-state />
+            <button-visual-state />
+          </button>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1500' minheight='1500' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='37' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97916' id='36' param='vert' type-v2='layout-flow' w='98828' x='586' y='1042'>
+                <zone h='6511' id='19' type-v2='title' w='98828' x='586' y='1042'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='229' h='30857' id='5' is-fixed='true' name='Global Brands KPI' w='49412' x='586' y='7553'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='229' h='30857' id='20' is-fixed='true' name='Brands according to BodyStyle' w='49416' x='49998' y='7553'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='37479' id='12' is-fixed='true' name='Top 10 Most Efficient Brands' w='49412' x='586' y='38410'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='37479' id='13' is-fixed='true' name='Top 10 Longest Range EVs' w='49416' x='49998' y='38410'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='169' h='23069' id='14' is-fixed='true' name='EV Price Distribution' w='49412' x='586' y='75889'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='169' h='23069' id='15' is-fixed='true' name='Top 10 Fast Charging Speed' w='49416' x='49998' y='75889'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{9752F8D0-CCE4-4889-93CD-5840158CE1D3}' />
+    </dashboard>
+    <dashboard name='Story 1' type='storyboard'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Electric Vehicle Market Analysis</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <style />
+      <size sizing-mode='automatic' />
+      <zones>
+        <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98120' id='1' param='vert' removable='false' type-v2='layout-flow' w='99034' x='483' y='940'>
+            <zone h='4935' id='3' type-v2='title' w='99034' x='483' y='940' />
+            <zone h='11868' id='4' is-fixed='true' paired-zone-id='5' removable='false' type-v2='flipboard-nav' w='99034' x='483' y='5875' />
+            <zone h='81317' id='5' paired-zone-id='4' removable='false' type-v2='flipboard' w='99034' x='483' y='17743'>
+              <flipboard active-id='1' nav-type='caption' show-nav-arrows='true'>
+                <story-points>
+                  <story-point caption='Overview of the Electric Vehicle Market Dashboard' captured-sheet='Electric Vehicle Market Analysis Dashboard' id='1' />
+                  <story-point caption='This visualization identifies the most efficient EV brands based on average energy consumption.' captured-sheet='Top 10 Most Efficient Brands' id='2' />
+                  <story-point caption='Comparison of brands providing the highest driving range.' captured-sheet='Top 10 Longest Range EVs' id='3' />
+                  <story-point caption='Distribution of EV brands across different body styles.' captured-sheet='Brands according to BodyStyle' id='4' />
+                  <story-point caption='Histogram showing the distribution of EV prices.' captured-sheet='EV Price Distribution' id='5' />
+                  <story-point caption='Comparison of fast charging capability among leading EV brands.' captured-sheet='Top 10 Fast Charging Speed' id='6' />
+                  <story-point caption='CONCLUSION' captured-sheet='' id='7' />
+                </story-points>
+              </flipboard>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone flipboard-zone-id='5' h='41363' hidden='true' id='6' story-point-id='7' type-v2='text' w='32348' x='27339' y='38895'>
+          <formatted-text>
+            <run fontalignment='0'>Key Insights
+
+• Tesla offers high performance.
+
+• Porsche has excellent charging speed.
+
+• EV prices vary significantly.
+
+• SUVs dominate the market.
+
+• Energy efficiency differs across manufacturers.</run>
+          </formatted-text>
+        </zone>
+      </zones>
+      <simple-id uuid='{A2D0221F-50ED-4234-AFC4-151965985BFA}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='53'>
+    <window class='worksheet' name='Global Brands KPI'>
+      <cards>
+        <edge name='left'>
+          <strip size='196'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='38'>
+            <card type='columns' />
+          </strip>
+          <strip size='38'>
+            <card type='rows' />
+          </strip>
+          <strip size='38'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{FEA104E2-9BD7-4814-AE3E-A4C48534A100}' />
+    </window>
+    <window class='worksheet' name='Brands according to BodyStyle'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{597F0745-2DE9-4339-B390-9021C72FCD6F}' />
+    </window>
+    <window class='worksheet' name='Top 10 Most Efficient Brands'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{6B2BEC29-7A29-4623-8347-15D73630A77B}' />
+    </window>
+    <window class='worksheet' name='Top 10 Longest Range EVs'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{9767BF33-A46B-4E0F-9686-6E2F92DFB529}' />
+    </window>
+    <window class='worksheet' name='EV Price Distribution'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{AE9B21A4-814D-41A8-AB87-E70EEBBBB537}' />
+    </window>
+    <window class='worksheet' name='Top 10 Fast Charging Speed'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{979A86E2-73E6-4838-8050-D8982244D7D6}' />
+    </window>
+    <window class='dashboard' name='Electric Vehicle Market Analysis Dashboard'>
+      <viewpoints>
+        <viewpoint name='Brands according to BodyStyle'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='EV Price Distribution'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Global Brands KPI'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Top 10 Fast Charging Speed'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Top 10 Longest Range EVs'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Top 10 Most Efficient Brands'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{CE1BCD5B-8FF4-4C03-BDFC-F71C11735874}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Story 1'>
+      <viewpoints />
+      <active id='-1' />
+      <simple-id uuid='{37869D31-F9FD-4974-B9CF-8A4429143A24}' />
+    </window>
+  </windows>
+</workbook>

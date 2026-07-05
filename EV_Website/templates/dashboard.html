@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+<header>
+    <h1>⚡ Electric Vehicle Market Analysis Dashboard</h1>
+
+    
+   <nav>
+    <a href="/">Home</a>
+    <a href="/dashboard">Dashboard</a>
+    <a href="/story">Story</a>
+    <a href="/about">About</a>
+</nav>
+</header>
+<h2>Electric Vehicle Dashboard</h2>
+
+<img src="{{ url_for('static', filename='images/dashboard.png') }}"
+class="preview-image"
+alt="Dashboard">
+
+</body>
+</html>

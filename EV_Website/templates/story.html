@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Story</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <header>
+    <h1>⚡ Electric Vehicle Market Analysis Dashboard</h1>
+
+    
+   <nav>
+    <a href="/">Home</a>
+    <a href="/dashboard">Dashboard</a>
+    <a href="/story">Story</a>
+    <a href="/about">About</a>
+</nav>
+</header>
+
+<h2>Tableau Story</h2>
+
+<img src="{{ url_for('static', filename='images/Story.png') }}"
+class="preview-image"
+alt="Story">
+
+<h3>Key Insights</h3>
+
+<ul>
+<li>Tesla offers high performance.</li>
+<li>Porsche provides the fastest charging.</li>
+<li>Lucid has the highest driving range.</li>
+<li>SUV body style dominates the EV market.</li>
+<li>EV prices vary significantly.</li>
+</ul>
+</body>
+</html>
